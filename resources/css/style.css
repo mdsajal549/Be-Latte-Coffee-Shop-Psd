@@ -1,0 +1,699 @@
+/*Basic setup*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    background: #fff;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+
+
+}
+
+.row {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*mobile menu start*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+header span {
+    display: none;
+}
+
+
+/*mobile menu end*/
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    /* background: #8F5B9A;*/
+    background: #999;
+    opacity: 0.8;
+    -webkit-box-shadow: 0px 5px 10px 0px;
+    box-shadow: 0px 5px 10px 0px;
+    color: #fff;
+
+}
+
+
+.logo {
+
+    position: fixed;
+    float: left;
+    margin: 15px 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+
+
+
+
+}
+
+nav img {
+    width: 60px;
+    height: 50px;
+}
+
+
+
+
+
+nav ul {
+    float: right;
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    /* padding: 10px 20px;*/
+    margin: 20px;
+}
+
+
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+
+
+
+}
+
+nav ul li:hover {
+    background: #273A71;
+
+
+
+}
+
+.sticky {
+
+    position: fixed;
+    width: 100%;
+    background: #999;
+    -webkit-box-shadow: 0px 5px 10px 0px;
+    box-shadow: 0px 5px 10px 0px;
+    color: #fff;
+    opacity: 0.8;
+
+
+}
+
+.sticky ul {
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+    opacity: 0.7;
+
+}
+
+.sticky ul li {
+    margin: 20px;
+}
+
+.sticky ul li a {
+    text-transform: uppercase;
+}
+
+.sticky img {
+    margin-left: 70px;
+
+}
+
+nav img {
+    font-size: 30px;
+    margin: 25px 0px 15px 70px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 79, 79, 0.1)), to(rgba(79, 79, 79, 0.1))),
+        url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(79, 79, 79, 0.1), rgba(79, 79, 79, 0.1)),
+        url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .text h1 {
+    display: inline-block;
+    margin-top: 200px;
+
+    float: left;
+    margin-left: 150px;
+    font-size: 480%;
+    color: #d9c16f;
+    font-weight: 700;
+
+
+
+}
+
+header .text p {
+    font-size: 160%;
+    color: #f1f1f0;
+    margin-left: 150px;
+    text-align: justify;
+    overflow: hidden;
+    clear: both;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+header .text button {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background: #020202;
+    color: #fff;
+    float: left;
+    margin: 40px 0px 0px 150px;
+    opacity: 0.6;
+    z-index: 11;
+
+
+}
+
+header .text button:hover {
+    background: #d9c16f;
+    color: #000;
+}
+
+/*
+about us section*/
+
+.about {
+    width: 100%;
+    height: 50vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/about-coffee.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/about-coffee.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+
+
+}
+
+.about h2 {
+    display: inline-block;
+    margin-top: 50px;
+
+
+
+    font-size: 480%;
+    color: #d9c16f;
+    font-weight: 700;
+
+}
+
+.about h3 {
+
+    margin-top: 10px;
+
+
+
+    font-size: 320%;
+    color: #2f2f2f;
+    font-weight: 700;
+
+}
+
+.about p {
+    font-size: 160%;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+
+
+/*menu part start here*/
+.menu {
+
+
+
+    width: 100%;
+    height: 110vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/menu-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/menu-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    border-top: 2px solid #d9c16f;
+
+}
+
+.menu h2 {
+    font-size: 480%;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #d9c16f;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.grid-menu-col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.grid-menu-col-3 img {
+    width: 400px;
+    height: 300px;
+    margin: 40px 10px 20px 10px;
+}
+
+.grid-menu-col-3 h3 {
+    font-size: 320%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/*for coffee*/
+.coffee-left ul {
+    margin-left: 30px;
+    float: left;
+    list-style: none;
+    font-size: 160%;
+    margin-top: 20px;
+
+}
+
+.coffee-left ul li {
+    padding: 6px 0px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.coffee-right ul {
+    float: right;
+    list-style: none;
+    font-size: 160%;
+    margin-right: 60px;
+
+    list-style: none;
+
+    margin-top: 20px;
+
+}
+
+.coffee-right ul li {
+    padding: 6px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/*for tea*/
+
+.tea-left ul {
+    margin-left: 30px;
+    float: left;
+    list-style: none;
+    font-size: 160%;
+    margin-top: 20px;
+
+}
+
+.tea-left ul li {
+    padding: 6px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.tea-right ul {
+    float: right;
+    list-style: none;
+    font-size: 160%;
+    margin-right: 60px;
+
+    list-style: none;
+
+    margin-top: 20px;
+
+}
+
+.tea-right ul li {
+    padding: 6px 0px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/*for dessert*/
+.dessert-left ul {
+    margin-left: 30px;
+    float: left;
+    list-style: none;
+    font-size: 160%;
+    margin-top: 20px;
+
+}
+
+.dessert-left ul li {
+    padding: 6px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.dessert-right ul {
+    float: right;
+    list-style: none;
+    font-size: 160%;
+    margin-right: 60px;
+
+    list-style: none;
+
+    margin-top: 20px;
+
+}
+
+.dessert-right ul li {
+    padding: 6px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/*Blog or testimonial part start here*/
+.blog {
+
+    width: 100%;
+    height: 110vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/testimonial-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/testimonial-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    border-top: 2px solid #d9c16f;
+
+}
+
+.blog h2 {
+    font-size: 480%;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #d9c16f;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.grid-blog-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.grid-blog-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-blog-col-2 img {
+    margin: 50px 10px;
+}
+
+.grid-blog-col-2 .box {
+    width: 450px;
+    height: 420px;
+    background: #000;
+
+
+}
+
+.box img {
+    margin-left: 200px;
+}
+
+.blog-dot .dot {
+
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 30px 2px 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease;
+}
+
+
+.item-2 {
+    background: #000;
+    width: 640px;
+    height: 420px;
+
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-left: -120px;
+
+
+}
+
+
+
+.grid-client-item img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.grid-client-item h3 {
+    color: #fff;
+    font-size: 200%;
+    margin-top: -10px;
+
+}
+
+.grid-client-item p {
+    color: #fff;
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+
+
+
+/*contact part start here*/
+.contact {
+
+    width: 100%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/contact-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/contact-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    border-top: 2px solid #d9c16f;
+
+
+
+}
+
+.contact h2 {
+    font-size: 480%;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #d9c16f;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.grid-contact-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.item-1 {
+
+
+    width: 535px;
+    height: 430px;
+    background: #f5d76e;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: -10px;
+}
+
+.item-22 {
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-left: -120px;
+
+
+}
+
+.grid-contact-col-2 h3 {
+    font-size: 200%;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.grid-contact-col-2 span {
+    font-size: 160%;
+    display: inline-block;
+    margin-top: 15px;
+    line-height: 1.5;
+
+}
+
+/*footer part css start here*/
+
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 49, 47, 0.8)), to(rgba(57, 49, 47, 0.8))),
+        url(img/footer-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(57, 49, 47, 0.8), rgba(57, 49, 47, 0.8)),
+        url(img/footer-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    border-top: 2px solid #d9c16f;
+}
+
+footer .icons a i {
+    color: #fff;
+    font-size: 200%;
+    margin-top: 30px;
+    padding: 10px 20px;
+
+}
+
+footer span {
+    color: #fff;
+    font-size: 200%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.copy-right span {
+    color: #f5d76e;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 220%;
+    margin-top: 20px;
+}
+
+footer .icons a .fa-instagram {
+    color: #f5d76e;
+}
+
+footer .icons a i:hover {
+    color: #f5d76e;
+}

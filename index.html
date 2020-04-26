@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Be Latte Coffe Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/Be-Latte-Coffee-shop-logo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responisve.css">
+
+</head>
+
+<body>
+
+    <!--header section-->
+    <div class="top">
+        <header id="home">
+
+
+            <nav>
+                <div class="row">
+                    <a href="">
+                        <img src="resources/img/Be-Latte-Coffee-shop-logo.png" alt="Logo">
+                    </a>
+                    <ul class="main-nav">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+
+
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">Home</a>
+                            <a onclick="closeNav()" href="#about">About</a>
+                            <a onclick="closeNav()" href="#menu">Menu</a>
+                            <a onclick="closeNav()" href="#blog">Blog</a>
+                            <a onclick="closeNav()" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+                </div>
+            </nav>
+            <div class="text">
+                <h1>Welcome to Be Latte</h1>
+                <p>Enjoy of a fresh new approach to coffee. Proin gravida nibh vel <br>velit. Auctor aliquet sollicitudin lorem quis.</p>
+                <button>See Menu</button>
+            </div>
+
+        </header>
+
+    </div>
+
+    <section class="about js-function" id="about">
+        <div class="row">
+            <h2>About Us</h2>
+            <h3>Coffee never tasted so good!</h3>
+            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat <br>consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos <br> himenaeos. </p>
+        </div>
+    </section>
+
+    <section class="menu js-function" id="menu">
+        <h2>Menu</h2>
+
+        <div class="grid-container">
+            <div class="grid-menu-col-3">
+                <div class="grid-menu-item">
+                    <img src="resources/img/coffee.png" alt="">
+                    <h3>Coffee</h3>
+                    <div class="coffee-left">
+                        <ul>
+                            <li>Latte</li>
+                            <li>Mocha</li>
+                            <li>Expresso</li>
+                            <li>Capuccino</li>
+
+
+
+
+
+
+
+
+
+                        </ul>
+                    </div>
+                    <div class="coffee-right">
+                        <ul>
+                            <li>3.00$</li>
+                            <li>4.00$</li>
+                            <li>5.00$</li>
+                            <li>6.00$</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="grid-menu-item">
+                    <img src="resources/img/tea.png" alt="">
+                    <h3>Tea</h3>
+                    <div class="tea-left">
+                        <ul>
+                            <li> Iced tea</li>
+                            <li> Cold brew</li>
+                            <li>Jasmine green</li>
+                            <li>Peppermint Herbal</li>
+                        </ul>
+                    </div>
+                    <div class="tea-right">
+                        <ul>
+                            <li>3.00$</li>
+                            <li>4.00$</li>
+                            <li>5.00$</li>
+                            <li>6.00$</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="grid-menu-item">
+                    <img src="resources/img/dessert.png" alt="">
+                    <h3>Dessert</h3>
+
+                    <div class="dessert-left">
+                        <ul>
+
+
+
+
+
+
+
+                            <li> Tiramisu</li>
+                            <li> Cheese cake</li>
+                            <li> Black forest</li>
+                            <li> Brownie</li>
+                        </ul>
+                    </div>
+                    <div class="dessert-right">
+                        <ul>
+                            <li>3.00$</li>
+                            <li>4.00$</li>
+                            <li>5.00$</li>
+                            <li>6.00$</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="blog js-function" id="blog">
+        <h2>Testimonials</h2>
+        <div class="container">
+            <div class="grid-blog-col-2">
+                <div class="grid-blog-item item-11">
+                    <img src="resources/img/blog-left.jpg" alt="">
+
+                </div>
+
+
+
+                <div class="grid-blog-item item-2">
+
+                    <div class="grid-client-item client-item-1">
+                        <img src="resources/img/blog-slide-1.png" alt="">
+                        <h3>Chris Parker</h3>
+                        <p>Nisi elit consequat ipsum, nec sag <br>ittis sem nibh id elit. Duis sed odio <br>sit amet nibh vulputate cursus a <br>sit amet mauris accumsan.</p>
+                    </div>
+                    <div class="grid-client-item client-item-2">
+                        <img src="resources/img/blog-slide-2.png" alt="">
+                        <h3>Charles David</h3>
+                        <p>Nisi elit consequat ipsum, nec sag <br>ittis sem nibh id elit. Duis sed odio <br>sit amet nibh vulputate cursus a <br>sit amet mauris accumsan.</p>
+                    </div>
+                    <div style="margin-right: -300px;" class="blog-dot">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="contact js-function" id="contact">
+        <h2>Location</h2>
+        <div class="grid-container">
+
+            <div class="grid-contact-col-2">
+                <div class="grid-contact-item item-1">
+                    <div class="location">
+                        <h3>Location</h3>
+                        <span>Visit us at St. Uttara, suite 780, <br> Dhaka, Bangladesh.</span>
+
+
+                    </div>
+                    <div class="hour">
+                        <h3>Hours</h3>
+                        <span>Mon - Sat: &nbsp; 7am - 8pm</span>
+                        <br>
+                        <span>Sunday: &nbsp; 7am - 5pm</span>
+
+                    </div>
+                    <div class="happy-hour">
+                        <h3>Happy Hour</h3>
+                        <span>Mon - Fri: &nbsp; 4pm - 6pm</span>
+                    </div>
+
+                </div>
+                <div class="grid-contact-item item-22">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.3704441887203!2d90.38979081414563!3d23.876479289866896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c415dabf6e4d%3A0xb9fa0b309dbe4785!2sUttara%20Sector%2011%20Park!5e0!3m2!1sen!2sbd!4v1587704028898!5m2!1sen!2sbd" width="780" height="430" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="icons">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a class="active" href=""><i class="fab fa-instagram"></i></a>
+        </div>
+        <span>Visit us at St. Uttara, suite 780,Dhaka, Bangladesh.</span>
+        <div class="copy-right">
+            <span>&copy; 2020 Be Latte. All Rights Reserved</span>
+            <h4>Designed by Sajal</h4>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="vendors/js/jquery-3.5.0.min.js"></script>
+    <script src="vendors/js/jquery-smooth-scroll.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/91677cab54.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1919 @@
+/*mobile menu start*/
+
+
+/*css for responsive*/
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 15px;
+        right: 35px;
+        margin-right: 145px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow-x: hidden;
+
+
+
+
+
+    }
+
+
+
+    .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 30px 30px 30px 30px;
+
+
+        float: right;
+        font-size: 50px;
+        border: 1px solid #000;
+        padding: 2px 5px;
+        color: #000;
+    }
+
+    nav img {
+        font-size: 30px;
+        margin: 30px 0px 25px 20px;
+        display: inline-block;
+        float: left;
+    }
+
+    .sticky img {
+        margin-left: 20px;
+    }
+
+
+    .overlay-content {
+        margin-top: 10px;
+
+
+    }
+
+    .overlay-content a {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 10px;
+    }
+
+
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+
+
+
+
+    /*moble-menu css end*/
+
+
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), to(rgba(0, 0, 0, .9))), url(img/bg-4.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(img/bg-4.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+        margin: 0px 0px 0px 0px;
+        -webkit-transition: 1s;
+        transition: 1s;
+
+
+
+    }
+
+    nav.black ul {
+        background: rgba(135, 80, 156, 0.96);
+
+
+    }
+
+    .showing {
+        max-height: 40em;
+
+
+    }
+
+    nav ul li {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 14px 0;
+        margin-top: 1px;
+        text-align: center;
+        height: 13vh;
+        display: inline-block;
+
+
+
+    }
+
+    .menu-icon {
+        display: block;
+
+    }
+
+
+    /*header section start here*/
+
+
+
+
+
+
+
+
+
+
+
+    header {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 79, 79, 0.1)), to(rgba(79, 79, 79, 0.1))),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(79, 79, 79, 0.1), rgba(79, 79, 79, 0.1)),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    header .text h1 {
+        display: inline-block;
+        margin-top: 150px;
+
+        float: left;
+        margin-left: 50px;
+        font-size: 380%;
+        color: #d9c16f;
+        font-weight: 700;
+
+
+
+    }
+
+    header .text p {
+        margin-top: 30px;
+        font-size: 130%;
+        color: #f1f1f0;
+        margin-left: -10px;
+        text-align: justify;
+        overflow: hidden;
+        clear: both;
+        line-height: 1.5;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    header .text button {
+        width: 140px;
+        height: 40px;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        font-size: 110%;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        background: #020202;
+        z-index: 11;
+        color: #fff;
+        float: left;
+        margin: 40px 0px 0px 50px;
+        opacity: 0.6;
+
+
+    }
+
+    header .text button:hover {
+        background: #d9c16f;
+        color: #000;
+    }
+
+    /*
+about us section*/
+
+    .about {
+        width: 100%;
+        height: 50vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .about h2 {
+        display: inline-block;
+        margin-top: 50px;
+
+
+
+        font-size: 380%;
+        color: #d9c16f;
+        font-weight: 700;
+
+    }
+
+    .about h3 {
+
+        margin-top: 10px;
+
+
+
+        font-size: 220%;
+        color: #2f2f2f;
+        font-weight: 700;
+
+    }
+
+    .about p {
+        font-size: 140%;
+        color: #2f2f2f;
+        margin: 30px;
+        text-align: center;
+    }
+
+
+
+
+    /*menu part start here*/
+    .menu {
+
+
+
+        width: 100%;
+        height: 270vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .menu h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+
+
+
+
+
+
+        color: #d9c16f;
+        font-weight: 700;
+
+
+    }
+
+    .grid-menu-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .grid-menu-col-3 img {
+        width: 400px;
+        height: 300px;
+        margin: 40px 10px 20px 10px;
+    }
+
+    .grid-menu-col-3 h3 {
+        font-size: 320%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for coffee*/
+    .coffee-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .coffee-left ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .coffee-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .coffee-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for tea*/
+
+    .tea-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .tea-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .tea-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .tea-right ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for dessert*/
+    .dessert-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .dessert-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .dessert-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+        display: inline-block;
+
+
+
+    }
+
+    .dessert-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*menu part end here*/
+    /*Blog or testimonial part start here*/
+    .blog {
+
+        width: 100%;
+        height: 150vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .blog h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-blog-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-blog-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-blog-col-2 img {
+        margin: 50px 10px;
+    }
+
+    .grid-blog-col-2 .box {
+        width: 450px;
+        height: 420px;
+        background: #000;
+
+
+    }
+
+    .box img {
+        margin-left: 100px;
+    }
+
+    .blog-dot .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 3px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    .blog-dot {
+        margin-left: 70px;
+    }
+
+
+    .item-2 {
+        background: #000;
+        width: 600px;
+        height: 420px;
+
+    }
+
+    .item-2 img {}
+
+    .grid-blog-item img {
+        width: 450px;
+        height: 320px;
+    }
+
+
+
+
+    .grid-client-item img {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .client-item-1 img {
+
+        margin-left: 140px;
+
+    }
+
+    .client-item-1 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-left: 120px;
+
+    }
+
+    .client-item-1 p {
+        margin-left: 130px;
+        font-size: 120%;
+
+    }
+
+    .grid-client-item h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+
+    }
+
+    .client-item-2 img {
+        margin-right: 20px;
+
+    }
+
+    .client-item-2 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-right: 50px;
+
+    }
+
+    .client-item-2 p {
+        margin-right: 140px;
+        font-size: 130%;
+        margin-right: 30px;
+    }
+
+
+    .grid-client-item p {
+        color: #fff;
+        font-size: 120%;
+        margin-top: 10px;
+    }
+
+
+
+    /*contact part start here*/
+    .contact {
+
+        width: 100%;
+        height: 142vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 480%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-contact-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .item-1 {
+
+
+        width: 435px;
+        height: 430px;
+        background: #f5d76e;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 120px;
+    }
+
+    .item-22 {
+        margin-right: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+
+
+    }
+
+    .grid-contact-item iframe {
+        width: 435px;
+        height: 430px;
+        margin-left: -100px;
+
+
+    }
+
+    .grid-contact-col-2 h3 {
+        font-size: 200%;
+        text-transform: uppercase;
+        margin-top: 50px;
+
+    }
+
+    .grid-contact-col-2 span {
+        font-size: 160%;
+        display: inline-block;
+        margin-top: 15px;
+        line-height: 1.5;
+
+    }
+
+
+    /*footer part css start here*/
+
+
+    footer {
+        margin-top: 100px;
+        width: 100%;
+        height: 40vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 49, 47, 0.8)), to(rgba(57, 49, 47, 0.8))),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(57, 49, 47, 0.8), rgba(57, 49, 47, 0.8)),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+    }
+
+    footer .icons a i {
+        color: #fff;
+        font-size: 200%;
+        margin-top: 60px;
+        padding: 10px 20px;
+
+    }
+
+    footer span {
+        color: #fff;
+        font-size: 160%;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .copy-right span {
+        color: #f5d76e;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    footer h4 {
+        color: #fff;
+        font-size: 180%;
+        margin-top: 20px;
+    }
+
+    footer .icons a .fa-instagram {
+        color: #f5d76e;
+    }
+
+    footer .icons a i:hover {
+        color: #f5d76e;
+    }
+
+
+
+
+
+}
+
+/*media query for 414 px */
+@media only screen and (max-width: 414px) {
+
+
+
+
+
+
+
+    /*header section start here*/
+
+
+
+
+
+
+
+
+
+
+
+    header {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 79, 79, 0.1)), to(rgba(79, 79, 79, 0.1))),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(79, 79, 79, 0.1), rgba(79, 79, 79, 0.1)),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    header .text h1 {
+        display: inline-block;
+        margin-top: 150px;
+
+        float: left;
+        margin-left: 20px;
+        font-size: 350%;
+        color: #d9c16f;
+        font-weight: 700;
+
+
+
+    }
+
+    header .text p {
+
+        font-size: 185%;
+        color: #f1f1f0;
+        margin: 15px 25px;
+        text-align: justify-all;
+        overflow: hidden;
+        clear: both;
+        line-height: 1.5;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    header .text button {
+        width: 130px;
+        height: 40px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 110%;
+        font-family: 'Lato', sans-serif;
+
+        background: #020202;
+        z-index: 11;
+        color: #fff;
+        float: left;
+        margin: 40px 0px 0px 30px;
+
+
+
+
+    }
+
+    header .text button:hover {
+        background: #d9c16f;
+        color: #000;
+    }
+
+    /*
+about us section*/
+
+    .about {
+        width: 100%;
+        height: 60vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .about h2 {
+        display: inline-block;
+        margin-top: 50px;
+
+
+
+        font-size: 380%;
+        color: #d9c16f;
+        font-weight: 700;
+
+    }
+
+    .about h3 {
+
+        margin-top: 10px;
+
+
+
+        font-size: 220%;
+        color: #2f2f2f;
+        font-weight: 700;
+
+    }
+
+    .about p {
+        font-size: 160%;
+        color: #2f2f2f;
+        margin: 20px 30px;
+        text-align: center;
+    }
+
+    /*menu part start here*/
+    .menu {
+
+
+
+        width: 100%;
+        height: 210vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .menu h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+
+
+
+
+
+
+        color: #d9c16f;
+        font-weight: 700;
+
+
+    }
+
+    .grid-menu-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .grid-menu-col-3 img {
+        width: 300px;
+        height: 200px;
+        margin: 40px 10px 20px 10px;
+    }
+
+    .grid-menu-col-3 h3 {
+        font-size: 320%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for coffee*/
+    .coffee-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .coffee-left ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .coffee-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .coffee-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for tea*/
+
+    .tea-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .tea-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .tea-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .tea-right ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for dessert*/
+    .dessert-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .dessert-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .dessert-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .dessert-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+
+
+
+
+    /*Blog or testimonial part start here*/
+    .blog {
+
+        width: 100%;
+        height: 135vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .blog h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-blog-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-blog-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-blog-col-2 img {
+        margin: 50px 10px;
+    }
+
+    .grid-blog-col-2 .box {
+        width: 300px;
+        height: 420px;
+        margin: 30px;
+        background: #000;
+
+
+    }
+
+    .box img {
+        margin-left: 100px;
+    }
+
+    .blog-dot .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 3px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    .blog-dot {
+        margin-left: -130px;
+    }
+
+
+    .item-2 {
+        background: #000;
+        width: 380px;
+        height: 420px;
+        margin-left: 15px;
+
+    }
+
+    .item-2 img {}
+
+    .grid-blog-item img {
+        width: 380px;
+        height: 220px;
+        margin-left: 15px;
+    }
+
+
+
+
+    .grid-client-item img {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .client-item-1 img {
+
+        margin-left: 10px;
+
+    }
+
+    .client-item-1 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-left: 15px;
+
+    }
+
+    .client-item-1 p {
+        margin-left: 10px;
+        font-size: 100%;
+
+    }
+
+    .grid-client-item h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+
+    }
+
+    .client-item-2 img {
+        margin-right: 20px;
+
+    }
+
+    .client-item-2 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-right: 50px;
+
+    }
+
+    .client-item-2 p {
+        margin-right: 140px;
+        font-size: 100%;
+        margin-right: 30px;
+    }
+
+
+    .grid-client-item p {
+        color: #fff;
+        font-size: 100%;
+        margin-top: 10px;
+    }
+
+
+
+
+    /*contact part start here*/
+    .contact {
+
+        width: 100%;
+        height: 140vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-contact-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .item-1 {
+
+
+        width: 380px;
+        height: 430px;
+        background: #f5d76e;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: -10px;
+    }
+
+    .item-22 {
+        width: 250px;
+        height: 400px;
+        margin-right: 15px;
+        margin-top: 50px;
+        margin-left: 80px;
+
+
+
+
+    }
+
+    .grid-contact-col-2 h3 {
+        font-size: 200%;
+        text-transform: uppercase;
+        margin-top: 50px;
+
+    }
+
+    .grid-contact-col-2 span {
+        font-size: 160%;
+        display: inline-block;
+        margin-top: 15px;
+        line-height: 1.5;
+
+    }
+
+
+
+    /*footer part css start here*/
+
+
+    footer {
+        background: #39312f;
+        color: #fff;
+
+        /*  width: 100%;
+        height: 60vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 49, 47, 0.8)), to(rgba(57, 49, 47, 0.8))),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(57, 49, 47, 0.8), rgba(57, 49, 47, 0.8)),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;*/
+    }
+
+    footer .icons a i {
+        color: #fff;
+        font-size: 180%;
+        margin-top: 60px;
+        padding: 10px 20px;
+
+    }
+
+    footer span {
+        color: #fff;
+        font-size: 140%;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .copy-right span {
+        color: #f5d76e;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    footer h4 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: 20px;
+    }
+
+    footer .icons a .fa-instagram {
+        color: #f5d76e;
+    }
+
+    footer .icons a i:hover {
+        color: #f5d76e;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*media query for 375 px*/
+
+@media only screen and (max-width: 375px) {
+
+
+
+
+
+    /*header section start here*/
+
+
+
+
+
+
+
+
+
+
+
+    header {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 79, 79, 0.1)), to(rgba(79, 79, 79, 0.1))),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(79, 79, 79, 0.1), rgba(79, 79, 79, 0.1)),
+            url(img/coffe-shop-top-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    header .text h1 {
+        display: inline-block;
+        margin-top: 150px;
+
+        float: left;
+        margin-left: 20px;
+        font-size: 300%;
+        color: #d9c16f;
+        font-weight: 700;
+
+
+
+    }
+
+    header .text p {
+
+        font-size: 175%;
+        color: #f1f1f0;
+        margin: 15px 25px;
+        text-align: justify-all;
+        overflow: hidden;
+        clear: both;
+        line-height: 1.5;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    header .text button {
+        width: 120px;
+        height: 35px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 110%;
+        font-family: 'Lato', sans-serif;
+
+        background: #020202;
+        z-index: 11;
+        color: #fff;
+        float: left;
+        margin: 40px 0px 0px 30px;
+
+
+
+
+    }
+
+    header .text button:hover {
+        background: #d9c16f;
+        color: #000;
+    }
+
+    /*
+about us section*/
+
+    .about {
+        width: 100%;
+        height: 95vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/about-coffee.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .about h2 {
+        display: inline-block;
+        margin-top: 50px;
+
+
+
+        font-size: 380%;
+        color: #d9c16f;
+        font-weight: 700;
+
+    }
+
+    .about h3 {
+
+        margin-top: 10px;
+
+
+
+        font-size: 220%;
+        color: #2f2f2f;
+        font-weight: 700;
+
+    }
+
+    .about p {
+        font-size: 160%;
+        color: #2f2f2f;
+        margin: 20px 30px;
+        text-align: center;
+    }
+
+    /*menu part start here*/
+    .menu {
+
+
+
+        width: 100%;
+        height: 230vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/menu-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .menu h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+
+
+
+
+
+
+        color: #d9c16f;
+        font-weight: 700;
+
+
+    }
+
+    .grid-menu-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .grid-menu-col-3 img {
+        width: 300px;
+        height: 200px;
+        margin: 40px 10px 20px 10px;
+    }
+
+    .grid-menu-col-3 h3 {
+        font-size: 320%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for coffee*/
+    .coffee-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .coffee-left ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .coffee-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .coffee-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for tea*/
+
+    .tea-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .tea-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .tea-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .tea-right ul li {
+        padding: 6px 0px;
+        color: #000;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    /*for dessert*/
+    .dessert-left ul {
+        margin-left: 30px;
+        float: left;
+        list-style: none;
+        font-size: 160%;
+        margin-top: 20px;
+
+    }
+
+    .dessert-left ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    .dessert-right ul {
+        float: right;
+        list-style: none;
+        font-size: 160%;
+        margin-right: 60px;
+
+        list-style: none;
+
+        margin-top: 20px;
+
+    }
+
+    .dessert-right ul li {
+        padding: 6px 0px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+
+
+
+
+    /*Blog or testimonial part start here*/
+    .blog {
+
+        width: 100%;
+        height: 150vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/testimonial-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+    }
+
+    .blog h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-blog-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-blog-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-blog-col-2 img {
+        margin: 50px 10px;
+    }
+
+    .grid-blog-col-2 .box {
+        width: 300px;
+        height: 420px;
+        margin: 30px;
+        background: #000;
+
+
+    }
+
+    .box img {
+        margin-left: 100px;
+    }
+
+    .blog-dot .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 3px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    .blog-dot {
+        margin-left: -130px;
+    }
+
+
+    .item-2 {
+        background: #000;
+        width: 350px;
+        height: 420px;
+        margin-left: 10px;
+
+    }
+
+    .item-2 img {}
+
+    .grid-blog-item img {
+        width: 330px;
+        height: 220px;
+        margin-left: 20px;
+    }
+
+
+
+
+    .grid-client-item img {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .client-item-1 img {
+
+        margin-left: 10px;
+
+    }
+
+    .client-item-1 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-left: 20px;
+
+    }
+
+    .client-item-1 p {
+        margin-left: 10px;
+        font-size: 90%;
+
+    }
+
+    .grid-client-item h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+
+    }
+
+    .client-item-2 img {
+        margin-right: 20px;
+
+    }
+
+    .client-item-2 h3 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: -10px;
+        margin-right: 50px;
+
+    }
+
+    .client-item-2 p {
+        margin-right: 140px;
+        font-size: 90%;
+        margin-right: 30px;
+    }
+
+
+    .grid-client-item p {
+        color: #fff;
+        font-size: 90%;
+        margin-top: 10px;
+    }
+
+
+
+
+    /*contact part start here*/
+    .contact {
+
+        width: 100%;
+        height: 140vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 380%;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #d9c16f;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    .grid-contact-col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .item-1 {
+
+
+        width: 335px;
+        height: 430px;
+        background: #f5d76e;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: -10px;
+    }
+
+    .item-22 {
+        width: 200px;
+        height: 400px;
+        margin-right: 15px;
+        margin-top: 50px;
+        margin-left: 40px;
+
+
+
+
+    }
+
+    .grid-contact-col-2 h3 {
+        font-size: 200%;
+        text-transform: uppercase;
+        margin-top: 50px;
+
+    }
+
+    .grid-contact-col-2 span {
+        font-size: 160%;
+        display: inline-block;
+        margin-top: 15px;
+        line-height: 1.5;
+
+    }
+
+
+
+    /*footer part css start here*/
+
+
+    footer {
+        background: #39312f;
+        color: #fff;
+
+        /*  width: 100%;
+        height: 60vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 49, 47, 0.8)), to(rgba(57, 49, 47, 0.8))),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(57, 49, 47, 0.8), rgba(57, 49, 47, 0.8)),
+            url(img/footer-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        border-top: 2px solid #d9c16f;*/
+    }
+
+    footer .icons a i {
+        color: #fff;
+        font-size: 180%;
+        margin-top: 60px;
+        padding: 10px 20px;
+
+    }
+
+    footer span {
+        color: #fff;
+        font-size: 140%;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .copy-right span {
+        color: #f5d76e;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    footer h4 {
+        color: #fff;
+        font-size: 160%;
+        margin-top: 20px;
+    }
+
+    footer .icons a .fa-instagram {
+        color: #f5d76e;
+    }
+
+    footer .icons a i:hover {
+        color: #f5d76e;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
